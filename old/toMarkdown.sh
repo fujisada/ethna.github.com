@@ -1,7 +1,7 @@
 #!/bin/zsh
-mkdir markdown
 htmlDir="."
 storeDir="markdown"
+mkdir $storeDir
 #ls *.html | html2markdown markdown/*.md
 for f in $htmlDir/*.html
 do
